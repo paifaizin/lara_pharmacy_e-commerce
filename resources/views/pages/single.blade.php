@@ -310,7 +310,7 @@
 			// }); 
 
 			$.ajax({
-				url: 'http://localhost:8000/carts/store',
+				url: '{{URL("carts/store")}}',
 				method: 'post',
             	data: { product_id: id },
             	headers: {
